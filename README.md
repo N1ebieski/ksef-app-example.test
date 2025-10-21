@@ -62,4 +62,4 @@ Jedynym sensownym sposobem autoryzacji do KsEF z punktu widzenia automatyzacji s
 
 ## Ważne pliki
 
-- 
+- https://github.com/N1ebieski/ksef-app-example.test/blob/main/resources/js/actions/signDocumentHandler.ts - klasa odpowiedzialna za podpisywanie dokumentow w oparciu o klucz prywatny
