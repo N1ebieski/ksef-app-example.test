@@ -53,7 +53,7 @@ https://github.com/user-attachments/assets/49c148ec-2c2b-4076-b9d3-5ee64b5f43c1
 1. The user adds their KsEF certificate in the panel at `http://localhost/settings/ksef`
 
 - the NIP identifier and the encrypted certificate (public part) are stored in the server database
-- the private key is encrypted via the Web Crypto API and stored in the browser's IndexedDB
+- the private key is encrypted via the Web Crypto API and stored as non-exportable in the browser's IndexedDB
 
 2. The frontend application sends a request to the backend to generate an `AuthTokenRequest` document and passes the user’s certificate (public part)
 3. The document is signed using the private key and sent back to the backend
