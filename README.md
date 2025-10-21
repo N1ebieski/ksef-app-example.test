@@ -60,6 +60,6 @@ Jedynym sensownym sposobem autoryzacji do KsEF z punktu widzenia automatyzacji s
 5. Oba tokeny zostają zapisane do sesji użytkownika, w momencie wylogowania użytkownika z systemu, backend wysyła do ksEF żądanie unieważnienia sesji
 6. W momencie ponownego zalogowania użytkownika do systemu, cały proces opisany w punktach 2-5 przebiega automatycznie w tle bez konieczności interakcji ze strony użytkownika
 
-## Pliki
+## Ważne pliki
 
 - 
