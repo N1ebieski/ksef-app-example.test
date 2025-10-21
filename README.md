@@ -49,6 +49,8 @@ Jedynym sensownym sposobem autoryzacji do KsEF z punktu widzenia automatyzacji s
 
 ## Zasada działania
 
+https://github.com/user-attachments/assets/49c148ec-2c2b-4076-b9d3-5ee64b5f43c1
+
 1. Użytkownik dodaje swój certyfikat KsEF w panelu `http://localhost/settings/ksef`
 
 - identyfikator NIP oraz zaszyfrowany certyfikat (publiczna część) zostają zapisane w bazie danych na serwerze
