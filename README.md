@@ -62,4 +62,9 @@ Jedynym sensownym sposobem autoryzacji do KsEF z punktu widzenia automatyzacji s
 
 ## Ważne pliki
 
-- https://github.com/N1ebieski/ksef-app-example.test/blob/main/resources/js/actions/signDocumentHandler.ts - klasa odpowiedzialna za podpisywanie dokumentow w oparciu o klucz prywatny
+- [signDocumentHandler.ts](https://github.com/N1ebieski/ksef-app-example.test/blob/main/resources/js/actions/signDocumentHandler.ts) - klasa odpowiedzialna za podpisywanie dokumentow w oparciu o klucz prywatny
+- [Ksef.vue](https://github.com/N1ebieski/ksef-app-example.test/blob/main/resources/js/pages/settings/Ksef.vue) - komponent odpowiedzialny za dodawanie certyfikatu i klucza prywatnego
+- [AuthKsef.vue](https://github.com/N1ebieski/ksef-app-example.test/blob/main/resources/js/components/AuthKsef.vue) - komponent odpowiedzialny za autoryzację aplikacji do KsEF
+- [Settings\Ksef controllers](https://github.com/N1ebieski/ksef-app-example.test/tree/main/app/Http/Controllers/Settings/Ksef) - kontrolery odpowiedzialne za zapis certyfikatu do bazy
+- [Ksef\Auth controllers](https://github.com/N1ebieski/ksef-app-example.test/tree/main/app/Http/Controllers/Ksef/Auth) - kontrolery odpowiedzialne za autoryzacje do KsEF
+- [RevokeKsefSessionListener](https://github.com/N1ebieski/ksef-app-example.test/blob/main/app/Listeners/RevokeKsefSessionListener.php) - listener odpowiedzialny za unieważnienie sesji w KsEF w momencie wylogowania użytkownika z systemu
