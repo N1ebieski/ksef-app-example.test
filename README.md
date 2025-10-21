@@ -66,6 +66,7 @@ https://github.com/user-attachments/assets/49c148ec-2c2b-4076-b9d3-5ee64b5f43c1
 - [signDocumentHandler.ts](https://github.com/N1ebieski/ksef-app-example.test/blob/main/resources/js/actions/signDocumentHandler.ts) - class responsible for signing documents using the private key
 - [Ksef.vue](https://github.com/N1ebieski/ksef-app-example.test/blob/main/resources/js/pages/settings/Ksef.vue) - component responsible for adding the certificate and private key
 - [AuthKsef.vue](https://github.com/N1ebieski/ksef-app-example.test/blob/main/resources/js/components/AuthKsef.vue) - component responsible for authenticating the application with KsEF
+- [AppServiceProvider](https://github.com/N1ebieski/ksef-app-example.test/blob/main/app/Providers/AppServiceProvider.php) - a provider that registers the KsEF PHP Client as a singleton
 - [Settings\Ksef controllers](https://github.com/N1ebieski/ksef-app-example.test/tree/main/app/Http/Controllers/Settings/Ksef) - controllers responsible for saving the certificate to the database
 - [Ksef\Auth controllers](https://github.com/N1ebieski/ksef-app-example.test/tree/main/app/Http/Controllers/Ksef/Auth) - controllers responsible for KsEF authentication
 - [RevokeKsefSessionListener](https://github.com/N1ebieski/ksef-app-example.test/blob/main/app/Listeners/RevokeKsefSessionListener.php) - listener responsible for revoking the KsEF session when the user logs out of the system
