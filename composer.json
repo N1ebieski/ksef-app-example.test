@@ -22,7 +22,7 @@
         "laravel/framework": "^12.0",
         "laravel/tinker": "^2.10.1",
         "laravel/wayfinder": "^0.1.9",
-        "n1ebieski/ksef-php-client": "^0.7.0"
+        "n1ebieski/ksef-php-client": "^1.0"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
@@ -44,16 +44,7 @@
         "psr-4": {
             "Tests\\": "tests/"
         }
-    },
-    "repositories": [    
-        {
-            "type": "path",
-            "url": "../ksef-php-client",
-            "options": {
-                "symlink": true
-            }
-        }
-    ],    
+    },   
     "scripts": {
         "setup": [
             "composer install",
